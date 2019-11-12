@@ -1,0 +1,38 @@
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' !important;
+    font-size: 13px;
+}
+input, textarea, select, button , label ,p, h1 , h2 , h3 , h4 ,h5{
+    font-family: 'Poppins' !important;
+}
+
+p{
+    font-size: 13px !important;
+}
+
+#app-container{
+    .main-app-container{
+        .app-page-container{
+            position: inherit;
+            .page-content{
+                padding: 24px;
+            }
+        }
+    }
+}
+
+a{
+    &:hover{
+        color: #0289ea !important;
+    }
+}
+
+.alert-box{
+    padding: 0 24px;
+}
+

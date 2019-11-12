@@ -1,0 +1,33 @@
+.page-err{
+    background-color:$background_color_3;
+    .err-container{
+        .err{
+            position: relative;
+        }
+        .err-body{
+            margin-bottom: 15%;
+            h1{
+                font-size: 48px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-weight: bold;
+                margin-top: 0px;
+                margin-bottom: 30px;
+                color: $color_gray4;
+            }
+            .btn-success {
+                min-height: 50px !important;
+                min-width: 160px !important;
+                font-size: 20px !important;
+            }
+        }
+        .err-footer{
+            font-weight: bold;
+            color: $color_gray4;
+            a{
+                color: $color_green;
+            }
+        }
+    }
+}

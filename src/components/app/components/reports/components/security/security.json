@@ -1,0 +1,190 @@
+{
+    "risk_score": 5.41,
+    "exposure": 1737230.0955555174,
+    "aptitude": 291.4,
+    "alerts": [
+      {
+        "priority": "CRITICAL",
+        "open": 8,
+        "closed": 3,
+        "remediating": 7
+      },
+      {
+        "priority": "HIGH",
+        "open": 159,
+        "closed": 817,
+        "remediating": 154
+      },
+      {
+        "priority": "MEDIUM",
+        "open": 311,
+        "closed": 1864,
+        "remediating": 245
+      },
+      {
+        "priority": "LOW",
+        "open": 26,
+        "closed": 15,
+        "remediating": 19
+      }
+    ],
+    "remediation_plans": {
+      "archived": 11,
+      "active": 14
+    },
+    "projected_risk_score": 1.4,
+    "assets": [
+      {
+        "asset_type_id": "0272d80e-3d7a-484e-9a54-0d95d5fc3580",
+        "count": 2
+      },
+      {
+        "asset_type_id": "08c049a1-c6b8-42a5-a3c2-1f3509dcf48a",
+        "count": 2
+      },
+      {
+        "asset_type_id": "146b3eeb-c58b-4439-8a59-3fa45ceaa3c7",
+        "count": 1
+      },
+      {
+        "asset_type_id": "1ef4c160-ed2d-43b1-b9fc-84240ab4f61f",
+        "count": 4
+      },
+      {
+        "asset_type_id": "34c31251-6f22-470b-97af-f3e5b8087ba3",
+        "count": 2
+      },
+      {
+        "asset_type_id": "3c36f766-1b1b-4a04-a96f-a60bb46e2531",
+        "count": 1
+      },
+      {
+        "asset_type_id": "434f0620-9ab1-4b6b-baa7-c3145430d092",
+        "count": 11
+      },
+      {
+        "asset_type_id": "4408d02b-efe8-4a72-904f-7061defc54cb",
+        "count": 3
+      },
+      {
+        "asset_type_id": "440feb3a-7232-48af-9e4f-3e44781b9ac4",
+        "count": 3
+      },
+      {
+        "asset_type_id": "49af5ac6-5a17-4d07-8fc8-ba87d9870422",
+        "count": 46
+      },
+      {
+        "asset_type_id": "4ba772b5-8d1d-40d2-bb19-4565d8e1a524",
+        "count": 1
+      },
+      {
+        "asset_type_id": "50b7e283-6ae2-471e-94ac-fc3f78255a4d",
+        "count": 14
+      },
+      {
+        "asset_type_id": "51390b22-22ce-48bf-b3ef-73ba85b5b4b4",
+        "count": 100
+      },
+      {
+        "asset_type_id": "542eca26-6baa-4868-80e7-a12a5dd26679",
+        "count": 2
+      },
+      {
+        "asset_type_id": "6d5ad9c1-2cd2-4a96-812d-f897c3182cef",
+        "count": 16
+      },
+      {
+        "asset_type_id": "7243a924-12b8-4f69-9308-a6b4899d2039",
+        "count": 34
+      },
+      {
+        "asset_type_id": "73d0a77e-370e-4e19-b37b-22662e27419e",
+        "count": 1
+      },
+      {
+        "asset_type_id": "77df3469-4959-4306-a69b-bdd6c6303461",
+        "count": 6
+      },
+      {
+        "asset_type_id": "7a3b02f7-d724-47d1-bd41-6944b0bc1037",
+        "count": 619
+      },
+      {
+        "asset_type_id": "7c91c540-32de-4be2-8f28-9530f2e30bc8",
+        "count": 1
+      },
+      {
+        "asset_type_id": "7dfb09db-2656-4b2c-b1a4-893b7bcbc700",
+        "count": 1
+      },
+      {
+        "asset_type_id": "7f95f015-7232-49a7-94f4-4fe6cb5660ce",
+        "count": 18
+      },
+      {
+        "asset_type_id": "8aeab6bc-2d23-4074-9b9d-7a396ca43227",
+        "count": 1
+      },
+      {
+        "asset_type_id": "8c910e76-cd83-42f7-9108-bd9104ad26b4",
+        "count": 17
+      },
+      {
+        "asset_type_id": "926dca00-80a5-4103-9ff3-d7192b069346",
+        "count": 2
+      },
+      {
+        "asset_type_id": "95f0055c-62f9-45d2-9de9-4fea57ebaed0",
+        "count": 7
+      },
+      {
+        "asset_type_id": "9af3b6a8-4132-4f87-bae7-97f31c0babf2",
+        "count": 1
+      },
+      {
+        "asset_type_id": "a1ca55f6-340f-4ce8-ab77-67c70e2dac1f",
+        "count": 20
+      },
+      {
+        "asset_type_id": "b63f81a3-2463-4fd2-b400-51a55d4d6c30",
+        "count": 79
+      },
+      {
+        "asset_type_id": "b752d876-c177-41f0-bc14-1791e928a2c0",
+        "count": 1
+      },
+      {
+        "asset_type_id": "b850fdd3-a0c9-4060-a9b8-cdafeb672a87",
+        "count": 20
+      },
+      {
+        "asset_type_id": "c4fdbcf6-a6f0-4631-8ba4-80e0b475ae0d",
+        "count": 4
+      },
+      {
+        "asset_type_id": "c9a60e3a-3d19-40a1-8a1a-fe6ec9fa35c1",
+        "count": 2
+      },
+      {
+        "asset_type_id": "caf53819-aa0a-4f3c-9950-e22d84502eff",
+        "count": 10
+      },
+      {
+        "asset_type_id": "d3c75a3a-db13-466e-8370-7a60e3aa51cf",
+        "count": 25
+      },
+      {
+        "asset_type_id": "e9fbe8fd-b718-4a70-85da-2339b2a73cc3",
+        "count": 30
+      },
+      {
+        "asset_type_id": "ef0a2102-a041-43e3-a9e9-a66fde704e5b",
+        "count": 65
+      },
+      {
+        "asset_type_id": "efd3b23b-3a26-4bcd-8015-7364e7eb379c",
+        "count": 1
+      }
+    ]
+  }

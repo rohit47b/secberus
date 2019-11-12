@@ -1,0 +1,185 @@
+/*remediation report css*/
+
+.pdf-box{
+    height: 100%;
+    .pdf-container{
+        height: 100%;
+        .pdf-info{
+            background-color: #fff;
+            padding: 0;
+            border: 4px solid #eee;
+            .pages-content{
+                padding: 20% 60px;
+                .logo-pdf{
+                    min-height: auto;
+                    margin-bottom: 30px;
+                    img{
+                        width: 200px;
+                    }
+                }
+                .customer-details{
+                    color: #fff;
+                }
+            }
+            .pdf-footer{
+                margin-bottom: 10%;
+                .pdf-footer-content {
+                    background-color: #fff;
+                    max-width: 60%;
+                    border-top-left-radius: 0px;
+                    border-bottom-right-radius: 30px;
+                    border-bottom-left-radius: 30px;
+                    border-top-right-radius: 30px;
+                    padding: 25px 40px;
+                    box-shadow: 0 0 10px 0 #ddd;
+                   
+                    h3{
+                        margin-bottom: 5px;
+                        margin-top: 0px;
+                    }
+                    p{
+                        margin: 0px;
+                    }
+                }
+            }
+            .page2{
+                .panel {
+                    background-color: #ffff;
+                    padding: 30px 40px 20px;
+                    position: relative;
+                    .panel-title{
+                        margin-bottom: 5px;
+                    }
+                    .account-info{
+                        span{
+                            margin-right: 20px;
+                        }
+                    }
+                    .panel-content{
+                        .link-url{
+                            cursor: pointer;
+                            color: #225BDE;
+                        }
+                        span.right-icon {
+                            opacity: 0.5;
+                            font-size: 10px;
+                        }
+                    }
+                }
+                .title {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #3d3d3d;
+                }
+               
+                .expand-all{
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                    padding-right: 25px;
+                    span{
+                        padding-right: 10px;
+                    }
+                }
+                .collapse {
+                    padding: 15px 0 15px 20px;
+                    .collapse-panel {
+                        background-color: transparent;
+                        margin-bottom: 20px;
+                        box-shadow: none;
+                        &:before{
+                           background-color: transparent;
+                        }
+                        .panel-summary{
+                            min-height: auto;
+                            padding: 0;
+                            >div{
+                                margin: 0px;
+                            }
+                            .expand-title{
+                                font-size: 13px;
+                                width: 88%;
+                                position: relative;
+                                &:before {
+                                    content: "";
+                                    display: inline-block;
+                                    background-color: #eee;
+                                    height: 2px;
+                                    width: 88%;
+                                    position: absolute;
+                                    left: 90px;
+                                    top: 9px;
+                                }
+                            }
+                        }
+                        .expand-panel-body{
+                            background-color: #fff;
+                            padding: 8px 24px 4px;
+                            margin: 5px 24px 5px 0px;
+                            ul.service-id {
+                                padding: 10px 20px;
+                                margin: 0px;
+                                li{
+                                    line-height: 26px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*remediation report css end*/
+
+
+.panel-chart{
+    .panel-title{
+        margin-bottom: 40px !important;
+    }
+    .panel-content{
+        .chart-detail{
+            display: flex;
+            align-items: center;
+            padding-right: 40px;
+            .chart-title{
+                font-weight: 600;
+                margin-right: 20px;
+                color: #3d3d3d;
+            }
+        }
+    }
+}
+
+
+
+@media print {
+    .pdf-info{
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+       
+    }
+    .pages{
+        position: relative;
+        height: 29cm; 
+        page-break-after: always;
+    }
+    .pdf-footer{
+        -webkit-print-color-adjust: exact; 
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+ }
+
+
+ @media(min-width:1400px){
+    .expand-title{
+        width: 95% !important;
+        &:before {
+            width: 95%;
+        }
+    }
+ }

@@ -1,0 +1,269 @@
+@media(max-width:1300px) and (min-width:959px){
+    /* .page-content{
+        padding: 0px !important;
+    } */
+    .table-container{
+        overflow: auto;
+        //border: 1px solid #ccc;
+        >div{
+            height: 240px !important;
+        }
+        .table-compliance-report{
+            .ReactVirtualized__Table__headerRow{
+                width: 540px !important;
+               
+                .ReactVirtualized__Table__headerColumn {
+                    padding: 0px 10px;
+                    display: inline-block;
+                    text-align: left;
+                    line-height: 39px;
+                    margin: 0px !important;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    width: 120px;
+                     .table-td {
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        display: inline-block;
+                    }
+                }
+            }
+            .ReactVirtualized__Table__Grid{
+                width: 100% !important;
+                .ReactVirtualized__Grid__innerScrollContainer{
+                    max-width: 100% !important;
+                    .ReactVirtualized__Table__row{
+                        width: 100% !important;
+                        .ReactVirtualized__Table__rowColumn {
+                            padding: 0px 10px;
+                            height: 39px;
+                            display: inline-block;
+                            line-height: 39px;
+                            text-align: left;
+                            margin: 0px !important;
+                            width: 120px;
+                            .progress-bar{
+                                margin-top: 15px;
+                            }
+                            
+                        }
+                        .ReactVirtualized__Table__sub-row{
+                            .sub-table{
+                                margin-left: 15px !important;
+                            }
+                        } 
+                    }
+                }
+            }
+            
+
+        }  
+    }
+}
+@media(max-width:768px){
+    .page-content{
+        padding: 0px !important;
+    }
+    .card-inner {
+        height: auto;
+       .card-body {
+            height: auto;
+            overflow-x: hidden;
+            padding: 15px 15px !important;
+            .alert-count .alert-wrapper {
+                margin-bottom: 15px;
+            }
+        }
+        
+    }
+    .table-container{
+        overflow: auto;
+        //border: 1px solid #ccc;
+        >div{
+            height: 240px !important;
+        }
+        .data-table{
+            .ReactVirtualized__Table__headerRow{
+                width: 100% !important;
+            
+                .ReactVirtualized__Table__headerColumn {
+                    padding: 0px 10px;
+                    display: inline-block;
+                    text-align: left;
+                    line-height: 39px;
+                    margin: 0px !important;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    width: 120px;
+                    .table-td {
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        display: inline-block;
+                    }
+                }
+            }
+            .ReactVirtualized__Table__Grid{
+                width: 100% !important;
+                .ReactVirtualized__Grid__innerScrollContainer{
+                    max-width: 100% !important;
+                    .ReactVirtualized__Table__row{
+                        width: 100% !important;
+                        .ReactVirtualized__Table__rowColumn {
+                            padding: 0px 10px;
+                            height: 39px;
+                            display: inline-block;
+                            line-height: 39px;
+                            text-align: left;
+                            margin: 0px !important;
+                            width: 120px;
+                            .progress-bar{
+                                margin-top: 15px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }  
+    }
+    .card-compliance{
+        .table-container{
+            overflow: auto;
+            //border: 1px solid #ccc;
+            >div{
+                height: 240px !important;
+            }
+            .data-table{
+                .ReactVirtualized__Table__headerRow{
+                    width: 670px !important;
+                
+                    .ReactVirtualized__Table__headerColumn {
+                        padding: 0px 10px;
+                        display: inline-block;
+                        text-align: left;
+                        line-height: 39px;
+                        margin: 0px !important;
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        width: 120px;
+                        .table-td {
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            display: inline-block;
+                        }
+                    }
+                }
+                .ReactVirtualized__Table__Grid{
+                    width: 100% !important;
+                    .ReactVirtualized__Grid__innerScrollContainer{
+                        max-width: 100% !important;
+                        .ReactVirtualized__Table__row{
+                            width: 100% !important;
+                            .ReactVirtualized__Table__rowColumn {
+                                padding: 0px 10px;
+                                height: 39px;
+                                display: inline-block;
+                                line-height: 39px;
+                                text-align: left;
+                                margin: 0px !important;
+                                width: 120px;
+                                .progress-bar{
+                                    margin-top: 15px;
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }  
+        }
+    }
+    .sidebar-body{
+        overflow: auto;
+        //margin-bottom: 40px;
+        //border: 1px solid #ccc;
+        /*>div{
+            height: 240px !important;
+        }*/
+        .data-table{
+            .ReactVirtualized__Table__headerRow{
+                width: 100% !important;
+               
+                .ReactVirtualized__Table__headerColumn {
+                    padding: 0px 10px;
+                    display: inline-block;
+                    text-align: left;
+                    line-height: 39px;
+                    margin: 0px !important;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    width: 120px;
+                     .table-td {
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        display: inline-block;
+                    }
+                }
+            }
+            .ReactVirtualized__Table__Grid{
+                width: 100% !important;
+                .ReactVirtualized__Grid__innerScrollContainer{
+                    max-width: 100% !important;
+                    .ReactVirtualized__Table__row{
+                        width: 100% !important;
+                        .ReactVirtualized__Table__rowColumn {
+                            padding: 0px 10px;
+                            height: 39px;
+                            display: inline-block;
+                            line-height: 39px;
+                            text-align: left;
+                            margin: 0px !important;
+                            width: 120px;
+                            .progress-bar{
+                                margin-top: 15px;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }  
+    }
+    .paper-box {
+        padding: 15px 15px 24px;
+        .cloud-services-box{
+            .asset-type{
+                margin: 0px 0 15px 0px;
+                min-width: 152px;
+                .assets-service-icon{
+                    font-size: 12px;
+                    img {
+                        height: 20px;
+                    }
+                } 
+            }
+        }
+    }
+    .card-tab{
+        .card-body{
+            .report-details{
+                .report-text-info.pdL30{
+                    padding: 15px !important;
+                    span{
+                        display: block;
+                    }
+                }
+                 .report-text {
+                    display: flex;
+                    min-height: 60px;
+                    background-color: #D7E4E5;
+                }
+            } 
+        }
+    } 
+    .table-box{
+        table {
+            table-layout: auto;
+        }
+    }
+}

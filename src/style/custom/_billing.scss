@@ -1,0 +1,163 @@
+.container-bill{
+    .divider-border {
+        border: 0.7px solid #666;
+        width: 100%;
+        margin-top: 0;
+    }
+    .right-sec {
+        font-weight: 600;
+        .btn-outline-blue{
+            background-color: $color_white !important;
+            border-radius: 4px !important;
+            span{
+                font-size: 13px;
+            }
+        }
+    }
+    .btn-white{
+        span{
+            font-weight: 600 !important;
+        }
+    }
+    .policy-count{
+        padding: 15px 0px;
+    }
+}
+.table-billing{
+    thead{
+        tr{
+            height: 48px;
+            .td-border{
+                border-left: 1px solid $green_color;
+                border-right: 1px solid $green_color;
+            }
+            th{
+                padding: 4px 24px 4px 24px !important;
+                background-color: $color_navy_blue;
+                color: $color_white;
+            }
+            .stnd-bill{
+                background-color:$green_color;
+                text-align: center;
+                font-size: 14px;
+                color: $color_white;
+                padding: 0px;
+            }
+        }
+    }
+    tbody{
+        border: 1px solid $color_gray5;
+        tr{
+            &:last-child{
+                height: 58px;
+            }
+            .td-border{
+                border-left: 1px solid $green_color;
+                border-right: 1px solid $green_color;
+            }
+            td{
+               
+                padding: 4px 24px 4px 24px !important;
+            }
+             td{
+                 background-color: $color_white;
+                 .fa{
+                    color: $green_color;
+                    font-size: 18px;
+                 }
+                 .btn-outline-blue{
+                    border-radius: 4px !important;
+                    span{
+                        font-size: 13px;
+                    }
+                 }
+                 .btn-primary,.btn-gray{
+                    padding: 6px 16px !important;
+                    min-height: 30px !important;
+                    min-width: 64px !important;
+                 }
+             }
+             .brd-btm-green{
+                 border-bottom: 1px solid $green_color;
+             }
+        }
+    }
+}
+
+.dialog-subscribe{
+    > div{
+        + div{
+            border-radius: 0px;
+        }
+    }
+    .dialog-title{
+        padding: 24px 24px 10px !important;
+        h2{
+            font-size: 13px;
+            margin-bottom: 0;
+            font-weight: bold !important;
+        }
+    }
+    .btn-primary{
+        min-width: auto !important;
+        width: 100% !important;
+        min-height: 30px !important;
+        border-radius: 4px;
+    }
+    .checkout-form{
+        .validation-error{width:235px;}
+        input{
+            padding: 6px 30px;
+        }
+        input,
+        .StripeElement {
+            display: block;
+            position: relative;
+            height: 20px !important;
+            font-size: 13px;
+            line-height: 1.42857143;
+            color: #555;
+            background-color: $color_white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+            margin-bottom: 15px;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            background-position: 10px 10px;
+        }
+        input::placeholder {
+            color: #aab7c4;
+            
+            font-size: 13px;
+        }
+    }
+}
+
+.u-name{
+    input{
+        background-image: url('/assets/images/avatar.png');
+    }
+}
+.u-email{
+    input{
+        background-image: url('/assets/images/mail.png');
+    }
+}
+.card-no{
+    background-image: url('/assets/images/card.png');
+    padding: 6px 30px;
+}
+.card-expiry{
+    background-image: url('/assets/images/date.png');
+    padding: 6px 30px;
+}
+.card-cvc{
+    background-image: url('/assets/images/cvc.png');
+    padding: 6px 30px;
+}
+

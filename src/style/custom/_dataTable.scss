@@ -1,0 +1,224 @@
+.data-table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    display: table;
+    height: 100%;
+        .ReactVirtualized__Table__headerRow{
+            background-color: #fff;
+            padding-right: 0 !important;
+            box-shadow: 0 0 3px rgba(0,0,0,0.2);
+            border-bottom: 1px solid #ddd;
+            .ReactVirtualized__Table__headerColumn{
+                padding:6px 24px;
+                .ReactVirtualized__Table__headerTruncatedText{
+                    color: $color_gray8;
+                    font-size: 12px;
+                    text-transform: capitalize;
+                    position: relative;
+                    font-weight: normal;
+                    line-height: 15px;
+                }
+                margin: 0 !important;
+                vertical-align: middle;
+                .table-td{
+                    color:$color_gray4;
+                    font-size: 13px;
+                    text-transform: capitalize;
+                    position: relative;
+                    font-weight: 600;
+                    line-height: 15px;
+                    svg{
+                        font-size: 17px;
+                        fill: $color_gray8;
+                        position: absolute;
+                    }
+                }
+                input[type="checkbox"] {
+                    margin: 0;
+                }
+            }
+            
+        }
+        .ReactVirtualized__Table__Grid{
+                .ReactVirtualized__Table__row{
+                    padding-right: 0 !important;
+                   
+                    &:nth-child(odd){
+                        background-color: $color_white;
+                    }
+                    &:nth-child(even){
+                        background-color: #F9FBFF;
+                    }
+                    .ReactVirtualized__Table__rowColumn {
+                        //border-bottom: 1px solid $color_gray2;
+                        padding: 6px 24px;
+                        margin: 0 !important;
+                        font-size: 13px;
+                        height: auto !important;
+                        align-items: center;
+                        display: flex;
+                        z-index: 10000;
+                        input[type="checkbox"] {
+                            margin: 0;
+                        }
+                    }
+                }
+                .ReactVirtualized__Table__sub-row{
+                    height: 39px;
+                }
+            
+        }
+    
+    .tbl-list{
+        padding: 0 24px 15px 24px;
+        ul{
+            list-style: none;
+            padding: 0;
+        }
+    }
+    .scroll-bar{
+        width: 100%;
+       
+        word-break: break-all;
+    }
+}
+
+.custom-select{
+    display: block;
+    width: auto;
+    height: 25px;
+    padding: 2px 8px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: $color_white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.mt-checkbox{
+    width: 20px !important;
+    height: 20px !important;
+    stroke: #eee;
+    svg{
+        width: 20px;
+        height: 20px;
+    }
+}
+.white-checkbox{
+    svg{
+        fill: white;
+    }
+}
+
+.green-checkbox{
+    svg{
+        fill: $green_color;
+    }
+}
+
+.table-ellipse{
+    .ReactVirtualized__Table__Grid{
+        .ReactVirtualized__Table__row{
+            .ReactVirtualized__Table__rowColumn{
+                border-bottom: none;
+                > div{
+                    white-space: nowrap !important;
+                    text-overflow: ellipsis;
+                    overflow: hidden !important;
+                }
+            }
+        }
+
+    }
+  
+}
+.table-truncate{
+    .ReactVirtualized__Table__Grid{
+        .ReactVirtualized__Table__row{
+            .ReactVirtualized__Table__rowColumn.truncate-column{
+
+                > div{
+                    white-space: nowrap !important;
+                    text-overflow: ellipsis;
+                    overflow: hidden !important;
+                }
+            }
+        }
+    }
+}
+
+
+/*table height css*/
+.page-container{
+    height: 100%;
+}
+.page-wrapper{
+    height: 100%;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.card-container{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.grid-container{
+    margin-top: auto !important;
+    width: calc(100% + 25px) !important;
+    height: 100%;
+   
+}
+.container{
+    height: 100%;
+}
+
+.auto-container{
+    height: 100% !important;
+    .data-table {
+        height: 100%;
+        .ReactVirtualized__Table__Grid{
+            height: calc(100% - 40px) !important;
+            min-height: 200px !important;
+            overflow: hidden auto !important;
+        }
+    }
+    
+}
+.tab-container{
+    height: 100%;
+}
+
+.auto-container{
+    .table-rule {
+        .ReactVirtualized__Table__Grid{
+            height: 100% !important;
+        }
+    }
+}
+.auto-container{
+    .table-aws-rule {
+        .ReactVirtualized__Table__Grid{
+            height: 100% !important;
+        }
+    }
+}
+.sub-table{
+    font-size: 13px;
+    width: 100%;
+    padding: 24px;
+}
+
+.table-border{
+    border: none;
+    .ReactVirtualized__Grid__innerScrollContainer{
+        border: 1px solid $color_gray5;
+    }
+}
+
+.list-filter{
+    width: 180px !important;
+}

@@ -1,0 +1,712 @@
+.card-policy{
+    .heading-black{
+        font-size: 17px;
+        color: #000;
+        font-weight: bold;
+    }
+}
+
+
+.accordian{
+    box-shadow: 0 0 4px 0 #696969 !important;
+  margin-bottom: 0px !important;
+    .accordian-head {
+        background-color: $color_navy_blue;
+        min-height: 58px !important;
+        p{
+            color: $color_white;
+        }
+    }
+    .accordian-content{
+        .add-user{
+            width: 100%;
+            p{
+                color: #000;
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
+        .control-title{
+            border-bottom: 1px solid $color_gray5;
+            span{
+                background-color: #ecd24e;
+                display: inline-block;
+                min-width: 30px;
+                min-height: 20px;
+                font-size: 12px;
+                text-align: center;
+                padding: 2px 5px;
+                color: #000;
+                font-weight: 600;
+            }
+        }
+        .ip-name{
+          span{
+              font-size: 12px;
+              margin-right: 10px;
+          }  
+          .chip{
+              background-color: $color_light_gray;
+              box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+              padding: 5px 15px;
+              border-radius: 3px;
+              color: $color_gray6;
+              font-size: 11px;
+          }
+        }
+    }
+    
+} 
+
+.policy-stepper{
+    .btn-step{
+        background-color: $color_green !important;
+        border-color: $color_green !important;
+        text-transform: capitalize !important;
+        box-shadow: none !important;
+        color: $color_white !important;
+        justify-content: flex-start !important;
+        min-width: 250px !important;
+        min-height: 42px !important;
+        padding: 8px 25px !important;
+        margin-right: 15px;
+        font-size: 13px;
+        font-weight: normal;
+        .complete-icon{
+            padding-right: 20px;
+        }
+    }
+    .btn-complete{
+        background-color: $color_green !important;
+        border-color: $color_green !important;
+    }
+    .btn-next{
+        background-color: $color_light_gray !important;
+        border-color: $color_light_gray !important;
+        color: #000!important;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075) !important;
+        .complete-icon{
+            color: $color_gray6;
+        }
+    }
+}
+
+.mrT17{
+    margin-top: 17px;
+}
+
+.default-accordian{
+    .accordian-head {
+        background-color: $color_light_gray !important;
+        p{
+            color: #000;
+        }
+    }
+}
+
+.tab-wrapper{
+    min-height: 40px !important;
+    border-bottom: 1px solid #ccc;
+    .tab-btn{
+        min-width: 90px !important;
+        background-color: $color_light_gray !important;
+        border: 1px solid $color_gray5;
+        border-bottom: none;
+        min-height: 40px !important;
+        color: $btn_primary;
+        text-transform: capitalize;
+    }
+    .tab-btn[aria-selected="true"]{
+        background-color: $color_white !important;
+        color: #000;
+    }
+    >div{
+        >div{
+            >div + span{
+                display: none;
+            }
+        }
+    }
+}
+
+
+    .policy-count{
+        background-color: $color_white;
+        text-align: center;
+        padding: 8px 0;
+        span{
+            vertical-align: middle;
+        }
+        .title{
+            display: inline-flex;
+            font-size: 12px;
+            line-height: 16px;
+            color: #000;
+        }
+        .count{
+            font-size: 30px;
+            margin-left: 10px;
+        }
+    }
+    
+    .btn-blue-outline{
+        font-size: 12px;
+    }
+
+.sidebar-policy{
+    .sidebar-body{
+        padding: 10px 20px !important;
+        .sec-add{
+            margin-bottom: 10px;
+            width: 100%;
+            h5{
+                margin: 0;
+            }
+            .btn-blue-outline{
+                padding: 3px 16px !important;
+            }
+        }
+    }
+}
+
+
+.list-panel{
+    background-color: $color_white;
+    height: calc(100% + 38px);
+    .list-head{
+        padding: 5px 24px;
+        border-bottom: 3px solid $color_gray5;
+        h4{
+            margin: 0;
+            font-size: 15px;
+            color: $color_gray3;
+        }
+    }
+    li{
+        border-bottom: 1px solid $color_gray5;
+        &:hover{
+            background-color: $btn_primary !important;
+            span{
+                color: $color_white;
+            }
+        }
+        > div {
+            padding: 10px 24px;
+            +div{
+                &:hover{
+                    background-color: transparent;
+                }
+            }
+            
+        }
+       
+        &:nth-child(even){
+            >div{
+                background-color: #EFF4FF;
+                &:hover{
+                    background-color: $btn_primary !important;
+                    span{
+                        color: $color_white;
+                    }
+                }
+                +div{
+                    background-color: transparent;
+                }
+            }
+            .text-primary {
+                    background-color: $btn_primary !important;
+                    span{
+                        color: $color_white;
+                    }
+            }
+        }
+        &:nth-child(odd){
+            >div{
+                background-color: $color_white;
+                &:hover{
+                    background-color: $btn_primary !important;
+                    span{
+                        color: $color_white;
+                    }
+                }
+                +div{
+                    background-color: transparent;
+                }
+            }
+            .text-primary {
+                    background-color: $btn_primary !important;
+                    span{
+                        color: $color_white;
+                    }
+            }
+        }
+        .count-circle{
+            right: 0;
+            display: flex;
+            .circle-icon{
+                height: 22px !important;
+                width: 22px !important;
+                font-size:12px !important;
+            }
+        }
+        span{
+            color: $btn_primary;
+        }
+    }
+}
+
+.grid-count{
+    padding: 0 12px 12px;
+    
+}
+.card-smry-count{
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    text-align: center;
+    border-right:1px solid $color_gray5;
+    position: relative;
+    .card-body{
+        padding: 24px 24px;
+        p{
+            font-weight: 500;
+        }
+        h2{
+            font-weight: 600;
+            font-size: 30px;
+        }
+    }
+    .mt-icon{
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 18px;
+    }
+}
+.card-black-border{
+    border-bottom: 3px solid #000;
+}
+.card-blue-border{
+    border-bottom: 3px solid $btn_primary;
+    .card-body{
+        h2{
+            color: $btn_primary;
+        }
+    }
+}
+.card-green-border{
+    border-bottom: 3px solid $green_color;
+    .material-icons{
+        color: $green_color;
+    }
+    .card-body{
+        h2{
+            color: $green_color;
+        }
+    }
+}
+.card-red-border{
+    border-bottom: 3px solid $red_color;
+    .material-icons{
+        color: $red_color;
+    }
+    .card-body{
+        h2{
+            color: $red_color;
+        }
+    }
+}
+.card-yellow-border{
+    border-bottom: 3px solid $yellow_color;
+    .material-icons{
+        color:  $yellow_color;
+    }
+    .card-body{
+        h2{
+            color:  $yellow_color;
+        }
+    }
+}
+.card-gray-border{
+    border-bottom: 3px solid $color_gray3;
+    .material-icons{
+        color:  $color_gray3;
+    }
+    .card-body{
+        h2{
+            color:  $color_gray3;
+        }
+    }
+}
+
+.table-policy{
+    .ReactVirtualized__Table__headerRow{
+            .table-td{
+                font-weight: 600;
+            }
+        }
+    
+        .ReactVirtualized__Table__Grid{
+            .ReactVirtualized__Table__row {
+                .ReactVirtualized__Table__sub-row.scroll-bar{
+                    padding: 0 !important;
+                    border-bottom: 2px solid $color_light_gray;
+                    height: 36px;
+                    background-color: $color_gray5;
+                    +div{
+                        align-items: flex-start;
+                       justify-content: flex-start;
+                       padding: 0 !important;
+                       overflow-y: auto;
+                       overflow-x: hidden;
+                    }
+                }
+                .ReactVirtualized__Table__rowColumn{
+                    height: 37px;
+                }
+            }
+        }
+        
+       .toggle-row{
+        height: 39px;
+        border-right: 1px solid $color_gray5;
+        display: flex;
+        align-items: center;
+        //margin-left: 0 !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        div{
+            display: block;
+        }
+        a{
+            color: $color_gray3;
+            font-size: 14px;
+        }
+    }
+    .col-td{
+            //margin-right: 0 !important;
+            //padding: 0 15px;
+    }
+    >div {
+        >div{
+            >div{
+                >div +div{
+                    background-color: #E5E5E5;
+                }
+            }
+        }
+    }
+    .sub-table{padding: 40px;width: 100%;}
+}
+
+.table-layout{
+    width: 100%;
+}
+
+.table-inner{
+    tbody{
+        tr{
+            margin-bottom: 5px;
+            td{
+                padding: 5px 30px;
+                background-color: $color_white;
+                border-bottom: 5px solid #E5E5E5;
+            }
+        }
+    }
+}
+
+
+.table-toggle{
+    thead{
+        tr{
+            .icon-action{
+                text-align: right;
+                a {
+                    color: $color_gray3;
+                    margin: 0 5px;
+                    font-size: 14px;
+                }
+            }
+            
+        }
+    }
+    tr{
+        td{
+            padding: 5px;
+            vertical-align: top;
+            font-size: 12px;
+        }
+    }
+    tbody{
+        tr{
+            td{
+                .chip-gray{
+                    border: 1px solid $color_gray5;
+                    height: 24px !important;
+                }
+            }
+        }
+    }
+}
+
+.card-wizard{
+    .card-media{
+        .checkbox-select{
+            width:30px;
+           }
+        .media-body{
+            padding-top: 11px;
+            padding-left: 45px;
+           .icon-action{
+               float: right;
+               a{
+                    color: $color_gray3;
+                    font-size: 14px;
+                    margin-right: 15px;
+               }
+           }
+           .media-desc{
+               p{
+                   font-size: 13px;
+               }
+           }
+        }
+    }
+    .card-footer{
+        border-top:1px solid $color_gray5;
+        display: block;
+        padding: 10px 65px;
+        .light-text{
+            margin-left: 0;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+}
+
+.left-rule{
+    h5{
+        border-bottom: 1px solid $color_gray5;
+        margin: 0 0 10px;
+        padding-bottom: 10px;
+        color: $color_gray3;
+    }
+    .service-icon{
+        img{
+            width: 60px;
+        }
+    }
+    .src-name{
+        font-size: 12px;
+    }
+  .btn-src{
+      background-color: $color_white !important;
+      border: 1px solid $color_gray5;
+      padding: 5px 12px !important;
+      min-width: 90px !important;
+      font-size: 12px !important;
+      .sr-icon{
+          img{
+              width: 18px;
+              margin-right: 5px;
+          }
+      }
+  }
+}
+.bg-gray{
+    background-color: $color_light_gray;
+    border: 1px solid $color_gray5;
+    padding: 15px;
+}
+
+.table-rule{
+        .ReactVirtualized__Table__Grid{
+            .ReactVirtualized__Table__row {
+            &:nth-child(even){
+                background-color: $color_white !important;
+            }
+            .ReactVirtualized__Table__rowColumn {
+                height: 79px !important;
+            }
+            .ReactVirtualized__Table__sub-row.scroll-bar{
+                background-color: $color_white;
+            }
+        }
+    }
+    .sub-table{
+        padding: 20px;
+        border-top:2px solid $color_light_gray;
+        border-bottom:5px solid $color_light_gray;
+    }
+    .toggle-row{
+        height: 80px !important;
+        //padding:0px 10px !important;
+        a{
+            font-size: 18px;
+        }
+    }
+}
+
+.table-aws-rule{
+    .toggle-row{
+        border-right: none !important;
+        padding-right: 0 !important;
+    }
+    .rule-name{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .sub-table{
+        padding: 0!important;
+    }
+    .host-name {
+        min-height: 248px;
+        border-left: 1px solid $color_gray5;
+        .update-time{
+            border-bottom: 2px solid $color_gray5;
+            padding: 10px 15px;
+            width: 100%;
+        }
+        .chip-host{
+            padding: 15px;
+        }
+    }
+    .panel-desc{
+        padding: 15px 24px;
+    }
+    .active{
+      a{
+          .fa{
+            transform: rotate(90deg);
+            display: block;
+          }
+      }  
+    }
+}
+
+.right-update{
+    text-align: right;
+    .multi-select{
+        display: inline !important;
+        margin-right: 15px;
+        .select-feild > div > div{
+            min-width: 150px;
+            text-align: left;
+        }
+    }
+}
+
+/*sahu sir*/
+
+.container{
+    .table-collapse{
+        position: relative !important;
+        display: flex !important;
+        height: 100% !important;
+        overflow: hidden !important;
+        .data-table {
+            display: initial !important;
+            height: 100% !important;
+            overflow: hidden !important;
+            .ReactVirtualized__Table__headerRow{
+                margin: 5px;
+            }
+            .ReactVirtualized__Grid.ReactVirtualized__Table__Grid{
+                height: calc(100% - 36px) !important;
+                position: relative !important;
+                overflow: hidden !important;
+                .ReactVirtualized__Grid__innerScrollContainer{
+                    height: 100% !important;
+                    max-height: none !important;
+                    border: none;
+                    // display: flex !important;
+                    // flex-flow: column !important;
+                    overflow: hidden auto !important;
+                    .ReactVirtualized__Table__row{
+                        max-height: 100% !important;
+                        position: relative !important;
+                        top: auto !important;
+                        height: 38px !important;
+                        min-height: 38px !important;
+                    }
+                    .ReactVirtualized__Table__row.is-open {
+                        height: auto !important;
+                        max-height: 100% !important;
+                        // left: 0px;
+                        position: relative !important;
+                        top: auto !important;
+                        .ReactVirtualized__Table__sub-row.scroll-bar{
+                            display: flex;
+                            min-height: unset !important;
+                            //max-height: 100vh !important;
+                            height: auto !important;
+                            .sub-table{
+                                .ReactVirtualized__Table__headerRow{
+                                    margin: 0px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.chip-host{
+    .chip-gray{
+        height: auto !important;
+        span{
+            display: block;
+            white-space: pre-line;
+            padding: 6px 12px;
+        }
+    }
+}
+.filter-search{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tab-policies{
+    .tab-item{
+        font-weight: 600;
+        padding-bottom: 4px;
+        > span > span{
+            padding: 0px !important;
+            >span{
+                white-space: nowrap !important;
+                font-size: 12px !important;
+            }
+        }
+    }
+    .tab-margin{
+        margin-right: 24px;
+        > span > span >span{
+            font-size: 11px !important;
+        }
+    }
+    .tab-item[aria-selected="true"]{
+        .tab-text{
+            color: $btn_primary;
+            .chip-sm{
+                background-color: $btn_primary !important;
+            }
+        }
+    }
+}
+.policy-info{
+    padding: 4px 15px;
+    margin-bottom: 15px;
+}
+
+.assets-wrapper-no-label{
+    align-items: flex-start;
+    .assets-item{
+        margin-top: 0px !important;
+        padding-top: 0px !important;
+    }
+}

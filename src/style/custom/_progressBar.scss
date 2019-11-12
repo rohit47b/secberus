@@ -1,0 +1,11 @@
+.linear-progress{
+  border-radius: 20px;
+  background-color: $color_white !important;
+  height: 40px !important;
+  box-shadow: 0 0 8px 0 $color_gray5;
+    > div{
+      background-color: #24ba4d !important;
+      border-radius: 20px;
+      animation-delay: 5s !important;
+  }
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Secberus</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<style>
+    html,
+    body{
+        height: 100%;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Poppins';
+        font-size: 14px;
+    }
+    .pages {
+        width: 8.5in;
+        height: 11in;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 24px;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #fff;
+    }
+
+    table tr:nth-child(odd) {
+        background-color: #FBFAFF;
+    }
+
+    .page-footer {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    @media print {
+        .pages {
+            page-break-after: always;
+            width: 8.5in;
+            height: 11in;
+            margin: 0.5in 0px;
+            padding: 0px;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .page-footer {
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+        }
+
+    }
+</style>
+
+<body style="background-color:#eee">
+    <div class="pages" style="position:relative;">
+        <div style="display: flex;flex-wrap: wrap;box-sizing: border-box;">
+            <div
+                style="border-bottom:8px solid#5DBCD2;display: flex;width: 100%;padding-bottom: 20px;align-items: center;margin-bottom: 10px;">
+                <span style="flex-grow: 1;"><img style="width: 320px;" src="secberus-logo.png" alt="Secberus Logo" /></span>
+                <h1 style="margin: 0px;font-style: italic;font-size: 2em;text-transform: uppercase;padding-right: 5px;">Remediation Plan
+                </h1>
+            </div>
+            <div style="flex-grow: 0;max-width: 50%;;flex-basis: 50%">
+                <span  style="display:block">
+                    <span style="font-weight: 600;font-size:15px;">Customer Name:</span>
+                    <span style="font-size:15px;"> <code> < Customer Name > </code> </span>
+                </span>
+                <span style="display:block">
+                    <span style="font-weight: 600;font-size:15px;">Remediation Plan Name:</span>
+                    <span style="font-size:15px;"> <code>< Remediation Plan Name > </code> </span>
+                </span>
+            </div>
+            <div style="flex-grow: 0;max-width: 50%;;flex-basis: 50%">
+                <span>
+                    <span style="font-weight: 600;font-size:15px;">Date & Time:</span>
+                    <span style="font-size:15px;"> <code> < MM/DD/YY , Hour:Minute:Seconds > </code> </span>
+                </span>
+            </div>
+        </div>
+        <div style="display: flex;flex-wrap: wrap;box-sizing: border-box;padding: 0 12px;">
+            <div style="flex-grow: 0;max-width: 100%;;flex-basis: 100%;margin-bottom: 30px;">
+                <h3 style="font-weight: bold;color: #032B2F;">Rule Information:</h3>
+                <div style="padding-left:24px;">
+                    <span style="color: #032B2F;display: block;margin-bottom: 10px;"><strong>Rule ID:</strong> AWS-S3-01
+                    </span>
+                    <span style="color: #032B2F;display: block;margin-bottom: 10px;"><strong>Rule Name:</strong> MFA
+                        Delete Not Enabled on S3 Bucket</span>
+                    <span style="color: #032B2F;display: block;"><strong>Rule Description:</strong> Ensure that your AWS
+                        S3 buckets are using Multi-Factor Authenticate (MFA) Delete feature in order to prevent the
+                        eletion of any versioned S3 objects (files). </span>
+                </div>
+            </div>
+            <div style="flex-grow: 0;max-width: 100%;;flex-basis: 100%;margin-bottom: 30px;">
+                <h3 style="font-weight: bold;color: #032B2F;">Remediation Steps:</h3>
+                <div style="padding-left:24px;">
+                    <ol style="padding: 0px;margin:0px;color: #032B2F;">
+                        <li style="margin-bottom:10px;padding-left: 5px;">
+                            <strong>Note : Enabling it via AWS Management console is not
+                                currently supported.</strong>
+                        </li>
+                        <li style="margin-bottom:10px;padding-left: 5px;">
+                            <strong>Side note : The user will need a virtual or hardware taken
+                                for MFA</strong>
+                        </li>
+                        <li>
+                            <strong>
+                                <a style="color: #032B2F;padding-left: 5px;"
+                                    href="https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html#MultiFactorAuthenticationDelete">https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html#MultiFactorAuthenticationDelete</a>
+                            </strong>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div style="flex-grow: 0;max-width: 100%;;flex-basis: 100%;">
+                <h3 style="font-weight: bold;color: #032B2F;">Rule Violations:</h3>
+                <div style="padding-left:24px;">
+                    <table style="border-collapse: collapse;width:100%;color: #032B2F;">
+                        <thead>
+                            <tr style="-webkit-print-color-adjust: exact;background-color: #e7f1f2;">
+                                <th style="text-align:left;padding:15px;">
+                                    Name
+                                </th>
+                                <th style="text-align:left;padding:15px;">
+                                    Region
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="padding:15px;">
+                                    S3 BucketName01
+                                </td>
+                                <td style="padding:15px;">
+                                    US-East 01
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:15px;">
+                                    S3 BucketName02
+                                </td>
+                                <td style="padding:15px;">
+                                    US-East 02
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:15px;">
+                                    S3 BucketName03
+                                </td>
+                                <td style="padding:15px;">
+                                    US-East 03
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:15px;">
+                                    S3 BucketName04
+                                </td>
+                                <td style="padding:15px;">
+                                    US-East 04
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="padding:15px;">
+                                    S3 BucketName05
+                                </td>
+                                <td style="padding:15px;">
+                                    US-East 05
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="page-footer">
+                <div
+                    style="display: flex;flex-wrap: wrap;box-sizing: border-box;padding: 0 12px;border-top: 4px solid#5DBCD2;padding-top: 10px;">
+                    <div style="flex-grow: 0;max-width: 33.3%;;flex-basis: 33.3%;">
+                        <span>@ SECBERUS , Inc 2018-19</span>
+                    </div>
+                    <div style="flex-grow: 0;max-width: 33.3%;;flex-basis: 33.3%;text-align: center;">
+                        <span>CONFIDENTIAL</span>
+                    </div>
+                    <div style="flex-grow: 0;max-width: 33.3%;;flex-basis: 33.3%;text-align: right">
+                        <span>Page 1 of 3</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

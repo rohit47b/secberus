@@ -1,0 +1,164 @@
+.right-sidebar{
+    position: relative !important;
+    .sidebar-header{
+        background-color: $color_white;
+        padding: 12px 24px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        h4{
+            margin: 0;
+            color: $color_gray8;
+            font-size: 14px;
+            flex-grow: 1;
+        }
+        .sidebar-close-icon{
+            color: #000;
+            cursor: pointer;
+            opacity: 1;
+            zoom: 150%;
+        }
+    }
+    > div{
+        //margin-bottom: 31px !important;
+        //height: 100% !important;
+        + div{
+            .sidebar-body{
+                height: calc(100% - 49px);
+            }
+            .sidebar-pd{
+                padding: 24px 24px 0px 24px;
+            }
+        }
+    }
+    .sidebar-container{
+        .ReactVirtualized__Table{
+            .ReactVirtualized__Table__Grid{
+                //height: auto !important;
+            }
+        }
+    }
+    .sidebar-btn{
+        padding-left: 24px;
+    }
+    // write by akshay
+    .sidebar-btn-change {
+        position: relative!important;
+        top: 60px !important;
+        left: 0;
+        right: 0;
+        padding-left: 28px;
+        margin-bottom: 11%;
+    }
+}
+.width-600{
+    > div{
+        + div{
+            width: 600px;
+        }
+    }
+}
+
+.width-450{
+    > div{
+        + div{
+            width: 450px;
+        }
+    }
+}
+
+.security-sidebar{
+    .sidebar-body{
+        padding: 0 !important;
+        .time-detect{
+            background-color: $color_light_gray;
+            padding: 15px 24px;
+            .title{
+                font-size: 12px;
+                color: $color_gray3
+            }
+            .date{
+                font-size: 14px;
+                font-weight: 600;
+                opacity: 0.8;
+            }
+            p{
+                margin: 0;
+            }
+            .select-box{
+                width: auto;
+                .select-feild {
+                    select {
+                        border: 1px solid $btn_primary;
+                        padding: 7px 14px;
+                        border-radius: 0;
+                        background-color: $color_white;
+                        color: $btn_primary ;
+                    }
+                    svg{
+                        width: 18px;
+                    }
+                }
+            }
+        }
+        .desc{
+            padding: 15px 24px 70px;
+            font-size: 13px;
+            .remediation-info{
+              padding: 20px 0;
+              border-top: 1px solid $color_gray5;
+              border-bottom: 1px solid $color_gray5;  
+              h4{
+                  margin-top: 0;
+              }
+            }
+        }
+    }
+}
+
+.issue-info{
+    background-color: $color_white;
+    border: 1px solid $color_light_gray;
+    min-height: 28px;
+    margin-bottom: 3px;
+    .issue-title{
+        background-color: $color_light_gray;
+        min-height: 28px;
+        display: inline-flex;
+        min-width: 180px;
+        padding: 0px 12px;
+        align-items: center;
+    }
+    .issue-name{
+        padding: 0px 12px;
+    }
+    .vhr{
+        margin: 0 10px;
+        color: $color_gray5;
+    }
+}
+
+.sidebar{
+    >div+div{
+        width: 500px;
+        .sidebar-container{
+            height: calc(100% - 58px);
+            .sidebar-header{
+                border-bottom: 1px solid #ddd;
+            }
+            .sidebar-body{
+                padding: 30px 15px;
+            }
+        }
+        
+    }
+}
+
+.sidebar-width{
+    >div + div{
+        min-width: 600px;
+        .sidebar-body {
+            padding: 15px;
+        }
+    }
+}

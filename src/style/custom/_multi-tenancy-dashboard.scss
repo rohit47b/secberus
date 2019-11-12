@@ -1,0 +1,47 @@
+.multi-tenancy-dashboard{
+    .multi-tenancy-dashboard-alert{
+        padding: 15px;
+        min-height: auto !important;
+        .alert-count{
+            padding-left: 0;
+            justify-content: center;
+           .alert-count-suppress{
+               margin-right: 0px;
+           }
+           .alert-wrapper {
+            margin-right: 15px;
+          }
+        }
+    }
+    .white-paper {
+        padding: 20px 15px;
+        min-height: 110px;
+        .white-paper-head{margin-bottom: 0px;}
+        .paper-content{
+            min-height: auto; 
+        }
+    }
+    .card-wizard{
+        .card-body-pd{
+            padding: 24px !important;
+            min-height: 360px;
+            .pei-chart-data {
+                padding: 24px 14px 24px 0px;
+            }
+        }
+    }
+   .search-box {
+        align-items: flex-end;
+        justify-content: flex-end;
+        width: auto;
+    }
+    
+}
+.table-all-cloud{
+   .ReactVirtualized__Table__headerRow .ReactVirtualized__Table__headerColumn .table-td {
+        text-align: center;
+    }
+    .ReactVirtualized__Table__Grid .ReactVirtualized__Table__row .ReactVirtualized__Table__rowColumn {
+       justify-content: center;
+    }
+}

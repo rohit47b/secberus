@@ -1,0 +1,111 @@
+
+.app-sidebar {
+    background-color: #F9F9F9 !important;
+    height: 100% !important;
+    //border-right: none !important;
+    .toolbar-icon{
+        svg{
+            color: $color_white;
+        }
+    }   
+    .side-nav{
+        height: calc(100% - 60px);
+        .side-nav-top{
+            height: 100%;
+        }
+        .nav-link{
+            padding: 15px 24px !important;
+            img{
+                margin-right: 24px;   
+            }
+            .fa{
+                font-size: 18px;
+                color: $color_gray3;
+                margin-right: 24px;
+                width: 20px;
+                &:hover{
+                    color: $bg_green-color_1;
+                }
+            }
+            .nav-text{
+                span{
+                    color: $color_gray7;
+                    font-size: 13px;
+                    font-family: 'Poppins' !important;
+                }
+            }
+        }
+        .nav-link.active{
+            .fa{
+                color: $bg_green-color_1;
+            }
+        }
+        .nav-link.active.bg-black{
+            background-color: #202020 !important;
+        }
+    }
+    .submenu{
+        background-color: #DEDFE2;
+        > div{
+            padding: 10px 24px !important;
+        }
+        .submenu-item{
+            span{
+                color: $color_gray6 !important;
+                font-size: 13px;
+                font-family: 'Poppins' !important;
+            }
+            .fa{
+                color: $color_gray6;
+                font-size: 18px;
+                margin-right: 24px;
+                width: 20px;
+                
+            }
+        }
+        .submenu-item.active{
+            .fa{
+                color: #58C619;
+            }
+        }
+        img{
+            margin-right: 24px;   
+        }
+    }
+}
+
+div[x-placement=right-end]{
+ 
+    >div{
+        margin: 0 6px !important;
+        &:before{
+            content: "\F0D9";
+                display: block;
+                font: normal normal normal 16px/1 FontAwesome;
+                position: absolute;
+                left: -5px;
+                top: 1px;
+                font-size: 20px;
+                color: #616161; 
+        }
+    }
+}
+
+.toggle-container{
+    .side-nav{
+        .nav-link{
+           
+            img{
+                margin-right: 0;   
+            }
+        }
+        .submenu{
+            >div{
+                padding: 10px 24px 10px 54px !important;
+            }
+            img{
+                margin-right: 0;  
+            }
+        }
+    }
+}

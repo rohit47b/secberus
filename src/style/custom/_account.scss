@@ -1,0 +1,187 @@
+.card-account{
+    .summary-content {
+        padding: 20px 24px !important;
+        .summary-title{
+            font-size: 14px !important;
+        }
+        .summary-count{
+            font-size: 30px !important;
+        }
+         .summary-icon {
+            bottom: 0 !important;
+            right: 50px !important;
+            font-size: 40px !important;
+            top: 30px;
+        }
+    }
+}
+.table-caption{
+    h4{
+        border: 1px solid $color_gray5;
+        background-color: $color_white;
+        padding: 7px 24px;
+        margin: 0;
+        font-weight: normal;
+        color: #2f467d;
+    }
+}
+.table-account{
+    .ReactVirtualized__Grid__innerScrollContainer{
+        .ReactVirtualized__Table__row{
+            .ReactVirtualized__Table__rowColumn{
+                height: 70px !important;
+            } 
+            .ReactVirtualized__Table__sub-row{
+                .sub-table{
+                    width: 100%;
+                    padding: 24px;
+                    background-color: $background_color_3;
+                    .table-info{
+                        background-color: $color_white;
+                        border: 1px solid $color_gray5;
+                        thead{
+                            tr{
+                                background-color: #eee;
+                            }
+                        }
+                        tr{
+                            height: 40px;
+                            th,td{
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+  
+    .icons-act{
+        font-size: 30px;
+        a{
+            color: $color_gray5;
+        }
+    }
+}
+
+.cmny-logo{
+    img{
+        width: 109px;
+        border: 1px solid $color_gray5;
+        padding: 10px;
+        height: 20px;
+        background-color: $color_white;
+    }
+}
+
+.report-grid{
+    .top-head{
+        position: relative;
+    }
+    .cmny-logo{
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        img{
+            width: 170px;
+            padding: 0;
+            height: 50px;
+        }
+    }
+}
+
+.report-desc{
+    position: relative;
+    .edit-icon{
+        border: 1px solid $color_gray5;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        display:block;
+        color: $color_gray6;
+        line-height: 34px;
+        position: absolute;
+        right: 25px;
+        top: 12px;
+        &:hover{
+            border-color: #0289ea;
+        }
+    }
+    h5{display: inline-block;margin-bottom: 15px;}
+    span{
+        background-color: $green_color;
+        font-size: 12px;
+        border-radius: 20px;
+        padding: 5px;
+        text-align: center;
+        color: $color_white;
+        min-width: 200px;
+        display: inline-block;
+        margin-left: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+}
+
+.report-container{
+    background-color: $color_white;
+    padding:20px 24px;
+}
+.card-gray{
+    background-color: $color_light_gray !important;
+    margin-top:30px;
+    .card-body{
+        padding: 40px;
+        min-height: 300px;
+        .pie-chart{
+            text-align: center;
+            min-height: 210px;
+            img{
+                width: 200px;
+            }
+        }
+        .report-count{
+            margin-top: 40px;
+            text-align: center;
+        }
+    }
+}
+
+.action-icon{
+    a{
+        color: $color_gray3;
+    }
+}
+
+.dialog-datepicker{
+    h2{
+        font-size: 14px;
+    }
+    .dialog-datepicker-foo{
+        padding: 24px 0px 0px;
+        .btn-outline-blue {border-radius: 4px !important;}
+    }
+    > div + div{
+        overflow-y: visible !important;
+    }
+}
+
+.container-cloud{
+    .btn-primary{
+        min-width: 80px !important;
+    }
+    .white-chip {
+        height: 28px !important;
+        border: 1px solid $color_gray5 !important;
+        margin-right: 10px;
+    }
+}
+
+.container-search{
+    .search-box{
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+}

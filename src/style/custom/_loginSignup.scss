@@ -1,0 +1,214 @@
+.section-login {
+        color: #000 !important;
+        text-transform: initial !important;
+        .quad-container{
+            min-height: 100vh;
+            margin:0px;
+            width:100%;
+            display: table;
+        .sb-loging-bg{
+            height: 100%;
+            // background-image: url('../assets/images/bg.png'); 
+            background-image: linear-gradient(150deg,rgba(255,255,255,0.22) 0%,rgba(86,177,191,0.27) 37%) !important;
+            background-color: #f7f3f2 !important;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 75%;
+            position: fixed;
+            left: 0;
+            float: left;
+            max-width:100%;
+
+            .top-inside-divider {
+                background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzOTdweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoMCw1MSw1MSwwLjE4KSI+PHBhdGggZD0iTTEyODAgMEw2NDAgNzAgMCAwdjE0MGw2NDAtNzAgNjQwIDcwVjB6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTEyODAgMEgwbDY0MCA3MCA2NDAtNzB6Ii8+PC9nPjwvc3ZnPg==);
+                background-size: 100% 397px;
+                top: 0;
+                height: 397px;
+                z-index: 1;
+                margin-top: -1px;
+            }
+            
+            .bottom-inside-divider{
+                background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIzMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9InJnYmEoMjU1LDI1NSwyNTUsMC4yNSkiPjxwYXRoIGQ9Ik0wIDE0MGw2NDAtNzAgNjQwIDcwVjBMNjQwIDcwIDAgMHYxNDB6IiBmaWxsLW9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTAgMTQwaDEyODBMNjQwIDcwIDAgMTQweiIvPjwvZz48L3N2Zz4=);
+                background-size: 20% 300px;
+                bottom: 0;
+                height: 300px;
+                z-index: 1;
+            }
+
+            .bottom-inside-divider, .top-inside-divider {
+                display: block;
+                position: absolute;
+                width: 100%;
+            }
+        }
+        .side-login-panel{
+            box-shadow: none;
+            overflow: visible;
+        
+        }
+        .quad-content{
+            p{
+                font-size: 13px;
+                color: $color_gray3;
+            }
+            > label{
+                color: $color_gray4;
+                font-weight: bold !important;
+                font-size: 15px;
+              
+            }
+        }
+        .form-qaud{
+            label{
+                font-size: 14px;
+                font-weight:normal !important;
+            }
+        }
+        ::placeholder {
+        font-size: 14px;
+        color: $color_gray4 !important;
+        }
+        a{
+            font-size: 12px;
+        }
+        .login-foo{
+            p{
+                font-size: 15px;
+                color: $color_gray4;
+                font-weight: bold;
+            }
+        }
+       
+        .icon-size  {
+            > div > button > span > div{
+                width: 18px;
+                height: 18px;
+            }
+        }
+        .underline-solid{
+            > div {
+                &:before{
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.42) !important;
+                }
+            }
+        }
+        .auto-suggesation{
+            > div > div{
+                &:last-child{
+                position: absolute;
+                left: 0;
+                right: 0;
+                z-index: 1;
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                        li{
+                            strong{
+                                white-space: pre-wrap;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+      
+        .form-panel{
+            padding: 15vh 4vh 4vh 4vh !important;
+            min-height:100vh;
+            float: right;
+            width: 25%;
+            .side-login-panel{
+                .logo-qaud{
+                    padding: 0;
+                    padding-bottom: 70px !important;
+                    display: block !important;
+                    //height: 0px;
+                    .logo-icon{
+                        height: auto;
+                        width: 100%;
+                        display: block;
+                    }
+                }
+                .quad-content{
+                    padding: 0;  
+                    .form-qaud{
+                        margin-bottom: 70px;
+                        > div > div{ 
+                            label[data-shrink ='true']  {
+                                color: $bg_green-color_1 !important;
+                                + div{
+                                    &:after{
+                                        border-bottom: 2px solid $bg_green-color_1 !important;
+                                    }
+                                }
+                                
+                            }
+                        }
+                        .qaud-grid{
+                            margin-bottom:15px;
+                            .text-field{
+                                width:100%;
+                                svg{
+                                    width: 0.8em;
+                                    height: 0.8em;
+                                }
+                            }
+                        }
+                       
+                        .mt-checkbox{
+                            width:auto;
+                           margin-right:10px;
+                        }
+                    }
+                    
+                    .error-icon{
+                        text-align: center;
+                        padding: 15vh 0;
+                    }
+                }
+                .divider   
+                    {
+                        margin: 0 -4vh !important;
+                        border-color:#e1e6ee;
+                    }
+            }
+        }
+
+    }
+}
+
+ 
+.success-icon{
+    img{
+        width: 60px;
+    }
+}
+
+.login-dialog{
+    >div{
+        +div{
+            max-width: 450px !important;
+            border-radius: 0 !important;
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.42);
+            position: relative;
+            .dialog-title{
+                padding: 0px !important;
+                .icon-close{
+                    cursor: pointer;
+                    position: absolute;
+                    right: 15px;
+                    top: 15px;
+                    opacity: 0.4;
+                }
+            }
+            .dialog-content{
+                padding:40px 35px  !important;
+                .text-outline{
+                    margin: 0px !important;
+                }
+            }
+        }
+    }
+}

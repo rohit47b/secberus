@@ -1,0 +1,1751 @@
+@media (min-width:1500px){
+    .multi-tenancy-dashboard{
+        .multi-tenancy-dashboard-alert{
+            .alert-count{
+               .alert-wrapper {
+                margin-right: 25px;
+              }
+              .alert-count-suppress {
+                margin-right: 0px;
+                }
+            }
+        }
+        .card-wizard .card-body-pd .pei-chart-data {
+            padding: 24px 24px 24px 0px;
+        }
+    }
+}
+
+@media (min-width:1200px){
+    .btn-round{
+        min-width: 100px !important;
+    }
+    .grid-20{
+        max-width: 25% !important;
+        flex-basis: 25% !important;
+    }
+    .grid-80{
+        max-width: 75% !important;
+        flex-basis: 75% !important;
+    }
+    .modal-security{
+        align-items: flex-start !important;
+        > div{
+            +div{
+                padding-top: 0 !important;
+            }
+        }
+    }
+    .summary-container {
+        .card-summary {
+            .summary-content {
+                .summary-title {
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .data-table{
+        .ReactVirtualized__Table__Grid{
+            .ReactVirtualized__Table__row{
+                .ReactVirtualized__Table__rowColumn{
+                    font-size: 12px !important;
+                }
+            }
+        }
+    }
+    
+    .notification-popover > div + div {
+        max-width: calc(30% - 32px);
+    }
+    .card-map{
+        .card-body{
+            .alert-map{
+                height: 350px !important;
+            }
+        }
+    }
+
+    .err-container{
+        .err{
+            position: relative;
+            top: -35px !important;
+            img{
+                width: 250px !important;
+            }
+        }
+        .err-body{
+            margin-bottom: 8% !important;
+        }
+    }
+    .table-height{
+        height: 606px !important;
+        .ReactVirtualized__Table__Grid{
+            height: 606px !important;
+        }
+    }
+}
+@media(min-width:992px){
+    .alert-dialog-container {
+        >div {       
+            +div {
+                max-width: 850px!important;
+                width: 850px !important;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1100px) and (max-width:1300px) {
+    .assets-wrapper  {
+        .assets-box{
+            .assets-item{
+                min-width: 122px !important;
+                .asset-item-title {
+                    font-size: 12px !important;
+                }
+            }
+            .alert-icon{
+                top:3px;
+                .fa{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+    .col-20{
+        max-width: 20% !important;
+        flex-basis: 20% !important;
+    }
+    .col-30{
+        max-width: 30% !important;
+        flex-basis: 30% !important;
+    }
+    .col-40{
+        max-width: 40% !important;
+        flex-basis: 40% !important;
+    }
+    .col-60{
+        max-width: 50% !important;
+        flex-basis: 50% !important;
+    }
+    .col-38{
+        max-width: 38% !important;
+        flex-basis: 38% !important;
+    }
+    .col-62{
+        max-width: 62% !important;
+        flex-basis: 62% !important;
+    }
+    .report-schedule  {
+        .report-schedule-info{
+            padding: 20px 0px;
+             .report-schedule-title {
+                width: 145px !important;
+                font-size: 11px !important;
+            }
+            .fnt-11 {
+                font-size: 9px;
+            }
+            .fnt-16 {
+                font-size: 14px;
+            }
+        }
+    }
+    
+}
+
+@media (min-width:1400px){
+    .btn-round{
+        min-width: 145px !important;
+    }
+    .grid-20{
+        max-width: 20% !important;
+        flex-basis: 20% !important;
+    }
+    .grid-80{
+        max-width: 80% !important;
+        flex-basis: 80% !important;
+    }
+    .modal-security{
+        align-items: flex-start !important;
+        > div{
+            +div{
+                padding-top: 8% !important;
+            }
+        }
+    }
+    .graph-grid{
+        .graph-percentage{
+            right: 42% !important;
+        }
+    }
+    .card-map{
+        .card-body{
+            .alert-map{
+                height: 350px !important;
+            }
+        }
+    }
+    .err-container{
+        .err{
+            top: -50px !important;
+            img{
+                width: 350px !important;
+            }
+        }
+        .err-body{
+            margin-bottom: 15% !important;
+        }
+    }
+
+    .white-paper{
+        padding: 30px;
+    }
+    .col-20{
+        max-width: 14% !important;
+        flex-basis: 14% !important;
+    }
+    .col-60{
+        max-width: 46% !important;
+        flex-basis: 46% !important;
+    }
+    .alert-dialog-container {
+        >div {       
+            +div {
+                max-width: 1365px!important;
+                width: 1365px !important;
+            }
+        }
+    }
+
+}
+
+
+.drawer-responsive{
+    .summary-container {
+        .card-summary {
+            .summary-content{
+                padding: 20px 6px 40px 10px;
+                .summary-title{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+   
+    .btn-round{
+        font-size: 11px !important;
+        margin: 0 2px !important;
+    }
+    .card-network{
+        padding: 30px 10px;
+    }
+    .card-wizard{
+        .card-title{padding: 12px 10px;}
+        .card-body{
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    } 
+   
+    .data-table{
+        .ReactVirtualized__Table__Grid{
+            .ReactVirtualized__Table__row{
+                .ReactVirtualized__Table__rowColumn{
+                    font-size: 10px;
+                    padding: 0px 10px !important;
+                    .sub-head{
+                        .heading-black strong{
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+        .ReactVirtualized__Table__headerRow {
+            .ReactVirtualized__Table__headerColumn{
+                padding: 6px 10px !important;
+                .table-td{
+                    font-size: 11px !important;
+                }
+            }
+        }
+    }
+    
+    .graph-grid{
+        .graph-percentage{
+            right: 12%;
+        }
+    }
+    
+    
+}
+@media(max-width:1440px){
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 70% !important;
+    } */
+}
+@media(max-width:1366px){
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 60% !important;
+    } */
+}
+@media(max-width:1300px){
+    .count-data{
+        font-size: 40px  !important;
+        padding-top: 5px  !important;
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 50px !important;
+            height: 50px !important;
+            font-size: 20px !important;
+        }
+        .alert-title{
+            font-size: 12px !important;
+        }
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 55px !important;
+            height: 55px !important;
+            font-size: 21px !important;
+        }
+        .alert-title{
+            font-size: 13px !important;
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .count-data{
+        font-size: 30px  !important;
+        padding-right: 5px!important;
+        padding-top: 10px  !important;
+    }
+    .ReactVirtualized__Table__rowColumn{
+        white-space: normal !important;
+    }
+    .status-bar-count{
+        margin-right: 0px !important;
+        font-size: 30px !important;
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 50px !important;
+            height: 50px !important;
+            font-size: 21px !important;
+        }
+        .alert-title{
+            font-size: 13px !important;
+        }
+    }
+}
+@media(max-width:1150px){
+    .report-attack-count{
+        .alert-circle{
+            width: 40px !important;
+            height: 40px !important;
+            font-size: 18px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 63px !important;
+            height: 63px !important;
+            font-size: 22px !important;
+        }
+        .alert-title{
+            font-size: 14px !important;
+        }
+    }
+    .remediation-status-layer{
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+}
+@media(max-width:1100px){
+    .report-attack-count{
+        .alert-circle{
+            width: 35px !important;
+            height: 35px !important;
+            font-size: 18px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+}
+@media(max-width:1050px){
+    .report-attack-count{
+        .alert-circle{
+            width: 30px !important;
+            height: 30px !important;
+            font-size: 18px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+}
+@media(max-width:1024px){
+    .count-data{
+        font-size: 20px  !important;
+        padding-right: 0px!important;
+        padding-top: 18px  !important;
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 25px !important;
+            height: 25px !important;
+            font-size: 15px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 50% !important;
+    } */
+}
+@media(max-width:990px){
+    .count-data{
+        font-size: 12px  !important;
+    }
+    .chart-result{
+        margin-left: -10px !important;
+    }
+}
+@media(max-width:959px){
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 100% !important;
+    } */
+    .count-data{
+        font-size: 50px  !important;
+        padding-right: 0px!important;
+    }
+    .page-dashboard{
+        .alert-circle{
+            width: 63px !important;
+            height: 63px !important;
+            font-size: 22px !important;
+        }
+        .alert-title{
+            font-size: 14px !important;
+        }
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 63px !important;
+            height: 63px !important;
+            font-size: 22px !important;
+        }
+        .alert-title{
+            font-size: 14px !important;
+        }
+    }
+    .status-bar-count{
+        margin-right: 15px !important;
+        font-size: 40px !important;
+    }
+    .report-text-info{
+        padding-left: 5px !important;
+    }
+}
+@media(max-width:959px){
+    
+}
+@media(max-width:916px){
+    .responsive-text-report{
+        display: block
+    }
+}
+@media(max-width:900px){
+}
+@media(max-width:800px){
+    .popover-search{
+        .btn-sec {
+            min-height: 50px;
+            width: 100%;
+            .btn-tab{
+                min-width: 80%;
+            }
+        }
+        .services{
+            width: 100%;
+        }
+    }
+    .popover-search{
+        > div {
+            +div{
+                min-width: 100%;
+            }
+        }
+    }
+    .header .header-toolbar .pro-pic img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 85% !important;
+    } */
+}
+
+@media(max-width:768px){
+    .white-paper{
+        padding: 15px;
+    }
+    .mobile-container{
+        width: 100% !important;
+        margin: 0px !important;
+    }
+    .section-login .quad-container .sb-loging-bg{
+        width: 100%;
+        position: relative;
+    }
+    .section-login .quad-container .form-panel{
+        width: 100%;
+    }
+    .d-block-mob{
+        display: block !important;
+    }
+    .score-count,.card-inner .card-body .alert-count{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    .assets-wrapper{
+        display: block;
+    }
+    .pdL0{
+        padding-left: 12px !important;
+    }
+    .card-wizard .card-footer{
+        padding: 10px 0;  
+    }
+    .form-pro{
+        padding-left: 0px !important;
+    }
+    .col-38{
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+    .col-62{
+        max-width: 100% !important;
+        flex-basis: 100% !important;
+    }
+    .MuiGrid-item-191{
+        width: 100%;
+    }
+    .jss191{
+        width: 100%;
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 45px !important;
+            height: 45px !important;
+            font-size: 20px !important;
+        }
+        .alert-title{
+            font-size: 13px !important;
+        }
+    }
+    #remediationPDF{
+        margin-top: 30px !important;
+    }
+    .search-select {
+        padding: 1px 20px 1px 5px !important;
+    }
+    .padding-spinner{
+        padding:  5px;
+    }
+    .card-tab .card-body .download-icon {
+        right: 40px;
+    }
+    .card-body {
+        margin-top: 20px !important;
+    }
+}
+@media(max-width:650px){
+    .app-page-container{
+        zoom: 90% !important;
+    }
+    .card-title{
+        margin-top: 10px !important;
+    }
+}
+@media(max-width:603px){
+    .alert-count{
+        padding-left: unset !important;
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 40px !important;
+            height: 40px !important;
+            font-size: 20px !important;
+        }
+        .alert-title{
+            font-size: 13px !important;
+        }
+    }
+    .width-600 > div + div {
+        width: 100% !important;
+    }
+    .responsive-fields{
+        flex-grow: 0;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+}
+@media(max-width:599px){
+    .sec-alert{
+        .MuiGrid-container-190{
+            .text-right{
+                text-align: left !important;
+            }
+        }
+    }
+    .responsive-left{
+        text-align: left !important;
+    }
+    .jss190{
+        .jss191{
+            .text-right{
+                text-align: left !important;
+            }
+        }
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 35px !important;
+            height: 35px !important;
+            font-size: 18px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 55px !important;
+            height: 55px !important;
+            font-size: 21px !important;
+        }
+        .alert-title{
+            font-size: 13px !important;
+        }
+    }
+    .footer-btn{
+        position: unset !important;
+        margin-left: -27px !important;
+    }
+    .app-page-container{
+        zoom: 85% !important;
+    }
+}
+@media(max-width:555px){
+    .alert-circle{
+        width: 55px !important;
+        height: 55px !important;
+        font-size: 22px !important;
+    }
+    .alert-title{
+        font-size: 14px !important;
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 30px !important;
+            height: 30px !important;
+            font-size: 16px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 50px !important;
+            height: 50px !important;
+            font-size: 20px !important;
+        }
+        .alert-title{
+            font-size: 12px !important;
+        }
+    }
+    .app-page-container{
+        zoom: 80% !important;
+    }
+}
+@media(max-width:550px){
+    .responsive-cancel-integration{
+        margin-top: 10px !important;
+    }
+}
+@media(max-width:520px){
+    .alert-circle{
+        width: 49px !important;
+        height: 49px !important;
+        font-size: 21px !important;
+    }
+    .alert-title{
+        font-size: 13px !important;
+    }
+    .nivo-line-chart-container{
+        height: 230px !important;
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 45px !important;
+            height: 45px !important;
+            font-size: 18px !important;
+        }
+        .alert-title{
+            font-size: 12px !important;
+        }
+    }
+    .app-page-container{
+        zoom: 75% !important;
+    }
+}
+@media(max-width:500px){
+    .chart-container{
+        .pei-chart-data{
+            display: inline !important;
+        }
+    }
+    .alert-circle{
+        width: 40px !important;
+        height: 40px !important;
+        font-size: 20px !important;
+    }
+    .alert-title{
+        font-size: 13px !important;
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 40px !important;
+            height: 40px !important;
+            font-size: 14px !important;
+        }
+        .alert-title{
+            font-size: 11px !important;
+        }
+    }
+    .page-dashboard{
+        .alert-circle{
+            width: 55px !important;
+            height: 55px !important;
+            font-size: 20px !important;
+        }
+        .alert-title{
+            font-size: 12px !important;
+        }
+    }
+    .chart-result{
+        margin-left: 20px !important;
+    }
+}
+@media(max-width:470px){
+    .alert-circle{
+        width: 35px !important;
+        height: 35px !important;
+        font-size: 20px !important;
+    }
+    .alert-title{
+        font-size: 12px !important;
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 30px !important;
+            height: 30px !important;
+            font-size: 10px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+    .page-dashboard{
+        .alert-circle{
+            width: 50px !important;
+            height: 50px !important;
+            font-size: 20px !important;
+        }
+        .alert-title{
+            font-size: 12px !important;
+        }
+    }
+}
+@media(max-width:450px){
+    .alert-circle{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 18px !important;
+    }
+    .alert-title{
+        font-size: 11px !important;
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 25px !important;
+            height: 25px !important;
+            font-size: 14px !important;
+        }
+        .alert-title{
+            font-size: 8px !important;
+        }
+    }
+    .report-remediation-status{
+        .alert-circle{
+            width: 26px !important;
+            height: 26px !important;
+            font-size: 9px !important;
+            span{
+                font-size: 9px !important;
+            }
+        }
+        .alert-title{
+            font-size: 8px !important;
+        }
+    }
+    .width-450 > div + div {
+        width: 100% !important;
+    }
+    .page-dashboard{
+        .alert-circle{
+            width: 45px !important;
+            height: 45px !important;
+            font-size: 18px !important;
+        }
+        .alert-title{
+            font-size: 10px !important;
+        }
+    }
+}
+@media(max-width:425px){
+    .alert-circle{
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 14px !important;
+    }
+    .alert-title{
+        font-size: 10px !important;
+    }
+    .page-dashboard{
+        .alert-circle{
+            width: 35px !important;
+            height: 35px !important;
+            font-size: 14px !important;
+        }
+        .alert-title{
+            font-size: 9px !important;
+        }
+    }
+}
+@media(max-width:414px){
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 75% !important;
+    } */
+}
+@media(max-width:409px){
+    .responsive-profile{
+        text-align: center !important;
+    }
+    .responsive-profile-buttons{
+        margin-top: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+@media(max-width:400px){
+    .notification-btn{
+        height: 20px;
+        width: 20px;
+        min-width: 20px;
+        min-height: 20px;
+    }
+    .count-data{
+        font-size: 40px  !important;
+        padding-top: 10px  !important;
+        padding-right: 0px!important;
+    }
+    .alert-wrapper{
+        margin-right: 10px !important;
+    }
+    .nivo-line-chart-container{
+        height: 250px !important;
+    }
+    
+}
+@media(max-width:390px){
+    .card-title{
+        height: auto !important;
+    }
+    .page-dashboard{
+        .alert-circle{
+            width: 35px !important;
+            height: 35px !important;
+            font-size: 15px !important;
+        }
+        .alert-title{
+            font-size: 9px !important;
+        }
+    }
+}
+@media(max-width:375px){
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 65% !important;
+    } */
+}
+@media(max-width:360px){
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 55% !important;
+    } */
+}
+@media(max-width:353px){
+    .responsive-cancel-edit-schedule{
+        margin-top: 10px !important;
+    }
+}
+@media(max-width:350px){
+    .notification-btn{
+        height: 20px;
+        width: 20px;
+        min-width: 20px;
+        min-height: 20px;
+        margin-left: -10px;
+    }
+    .link-hrf{
+        font-size: 8px !important;
+    }
+    .count-data{
+        font-size: 20px  !important;
+        padding-top: 20px  !important;
+        padding-right: 0px!important;
+    }
+    .sec-alert{
+        .MuiGrid-container-190{
+            .text-right{
+                span{
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+    .sec-alert{
+        .jss190{
+            .text-right{
+                span{
+                    font-size: 10px !important;
+                }
+            }
+        }
+    }
+    .alert-circle{
+        width: 18px !important;
+        height: 18px !important;
+        font-size: 10px !important;
+    }
+    .alert-title{
+        font-size: 8px !important;
+    }
+    .report-attack-count{
+        .alert-circle{
+            width: 17px !important;
+            height: 17px !important;
+            font-size: 8px !important;
+        }
+        .alert-title{
+            font-size: 6px !important;
+        }
+    }
+    .page-dashboard{
+        .alert-circle{
+            width: 30px !important;
+            height: 30px !important;
+            font-size: 14px !important;
+        }
+        .alert-title{
+            font-size: 8px !important;
+        }
+    }
+}
+@media(max-width:320px){
+    /* .app-page-container, .remediation-plan-popper{
+        zoom: 45% !important;
+    } */
+}
+
+.header-50{
+    padding-top: 50px;
+}
+
+
+
+/*responsive css*/
+.drawer-responsive{
+    .app-content-wrapper{
+        .page-content{
+            padding: 15px !important;
+            .card-wizard{
+                .card-body{
+                    .pdLR-30{
+                        padding-left: 0px;
+                        padding-right: 0px;
+                    }
+                    .alert-count{
+                        padding-left: 0;
+                        .alert-wrapper {
+                            margin-right: 15px;
+                        }
+                    }
+                    .white-paper{
+                        .paper-content{
+                            .count-data{
+                                padding-right: 0px;
+                            }
+                        } 
+                    } 
+                    .btn-add-rounded{
+                        padding: 3px 8px !important;
+                    }
+                }
+            }
+           
+        }
+        .report-attack-count  {
+            .alert-wrapper{
+                margin-right: 25px !important;
+            }
+        }
+        .score-count{
+            padding: 15px 10px;
+        }
+    }
+}
+//height
+@media(max-height:900px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 90% !important;
+    }
+    #page-container{margin-top: 50px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 315px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 90% !important;
+                //margin-left: 10%
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 90% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 90% !important;
+            }
+        }
+    }
+}
+@media(max-height:850px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 85% !important;
+    }
+    #page-container{margin-top: 55px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 305px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 79.9522px !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -3% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 85% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 95% !important;
+    }
+}
+@media(max-height:800px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 80% !important;
+    }
+    #page-container{margin-top: 60px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 285px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 80.9648px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 80% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -6% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 80% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 90% !important;
+    }
+}
+@media(max-height:750px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 75% !important;
+    }
+    #page-container{margin-top: 65px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 275px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 81px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 75% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -7% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 75% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 85% !important;
+    }
+}
+@media(max-height:700px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 70% !important;
+    }
+    #page-container{margin-top: 70px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 255px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 78.9509px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 70% !important;
+                margin-left: 8.5% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 70% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 80% !important;
+    }
+}
+@media(max-height:650px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 65% !important;
+    }
+    #page-container{margin-top: 75px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 245px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 75.9663px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 65% !important;
+                margin-left: 8% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 65% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 75% !important;
+    }
+}
+@media(max-height:600px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 60% !important;
+    }
+    #page-container{margin-top: 80px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 235px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 73.932px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 60% !important;
+                margin-left: 13% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 60% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 70% !important;
+    }
+}
+@media(max-height:550px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 55% !important;
+    }
+    #page-container{margin-top: 85px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 225px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 70.949px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 58% !important;
+                margin-left: 15.5% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 55% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 65% !important;
+    }
+}
+@media(max-height:500px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 50% !important;
+    }
+    #page-container{margin-top: 90px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 215px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 66.949px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 60% !important;
+                margin-left: 14.5% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 50% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 60% !important;
+    }
+}
+@media(max-height:450px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 45% !important;
+    }
+    #page-container{margin-top: 95px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 205px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 61.949px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 64% !important;
+                margin-left: 10.5% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 45% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 55% !important;
+    }
+}
+@media(max-height:400px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 40% !important;
+    }
+    #page-container{margin-top: 100px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 195px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 57.949px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 64% !important;
+                margin-left: 10.5% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 40% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 50% !important;
+    }
+}
+@media(max-height:350px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 35% !important;
+    }
+    #page-container{margin-top: 105px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 185px !important;
+            }
+        }
+    }
+    .select-compliance-select{
+        > div{
+            +div{
+                top: 50.949px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{          
+                zoom: 72% !important;
+                margin-left: 3.5% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 35% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 45% !important;
+    }
+}
+@media(max-height:300px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 30% !important;
+    }
+    #page-container{margin-top: 110px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 175px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 72% !important;
+                margin-left: 3.5% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 30% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 40% !important;
+    }
+}
+@media(max-height:250px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 25% !important;
+    }
+    #page-container{margin-top: 115px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 165px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 25% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 25% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 35% !important;
+    }
+}
+@media(max-height:200px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 20% !important;
+    }
+    #page-container{margin-top: 120px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 155px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 20% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 20% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 30% !important;
+    }
+}
+@media(max-height:150px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 15% !important;
+    }
+    #page-container{margin-top: 125px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 145px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 15% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 15% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 25% !important;
+    }
+}
+@media(max-height:100px) and (min-width:961px){
+    .app-page-container, .remediation-plan-popper{
+        zoom: 10% !important;
+    }
+    #page-container{margin-top: 130px !important;}
+    .compliance-data-range{
+        > div{
+            +div{
+                top: 135px !important;
+            }
+        }
+    }
+    .risk-posture-select{
+        > div{
+            +div{
+                zoom: 10% !important;
+            }
+        }
+    }
+    .account-growth-select{
+        > div{
+            +div{
+                zoom: 97% !important;
+                margin-top: -9% !important;
+            }
+        }
+    }
+    .select-asset-dropdown{
+        > div{
+            +div{
+                zoom: 10% !important;
+            }
+        }
+    }
+    .addToPlanPepper{
+        zoom: 20% !important;
+    }
+}

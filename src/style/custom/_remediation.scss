@@ -1,0 +1,129 @@
+.card-remediation{
+    .card-body{
+        .alert-count{
+            .alert-wrapper{
+                margin-right: 20px !important;
+                .alert-title {
+                    font-size: 13px;
+                    font-weight: normal;
+                } 
+            }
+        } 
+    } 
+}
+
+
+.score-count{
+    margin: 0 5px;
+    border: 1px solid #CECECE;
+    padding: 15px 15px;
+    .score-box {
+        min-width: 150px;
+        .sub-head{
+            .heading-black{
+                strong{
+                    font-size: 14px;
+                }
+            }
+        }
+        .score-count-issue{
+            line-height: 24px;
+            .count {
+                font-size: 20px;
+            }
+        }
+        .middle-count{
+            min-height: 50px;
+            align-items: flex-end;
+            flex-wrap: wrap;
+            padding-bottom: 8px;
+        }
+        .brd-btm-yellow{
+            border-bottom: 3px solid $yellow_color;
+        }
+    
+        .brd-btm-green{
+            border-bottom: 3px solid $green_color;
+        }
+        .brd-btm-gray{
+            border-bottom: 3px solid $color_gray4;
+        }
+    
+    }
+}
+
+.score-box-3{
+    .alert-icon{
+        display: none;
+    }
+}
+
+.col-50{
+    max-width: 50%;
+    flex-grow: 1;
+}
+
+.box-score{
+    box-shadow: 5px -5px 10px -5px #ccc;
+    .box-header{
+        padding: 10px 15px;
+        font-weight: 600;
+        color: $color_gray4;
+        border-bottom: 1px solid #ddd;
+        display: flex;
+        align-items: center;
+        .box-title{
+            flex-grow: 1;
+        }
+    }
+    .box-body{
+        padding: 36px 4px;
+        .pei-chart-data{
+            padding-right: 0px;
+        }
+    }
+}
+
+.tab-nav-btn{
+    min-height: 15px !important;
+    border: 1px solid #ccc;
+    .tab-btn {
+        min-height: 15px !important;
+        color: #225BDE;
+        text-transform: capitalize;
+        >span>span{
+            padding: 4px 15px !important;
+        }
+    }
+}
+
+.content-info{
+    .plan-title{
+        text-align: right;
+        font-weight: 600;
+        color: $color_gray8;
+        border-right: 1px solid #CECECE;
+        padding-right: 15px;
+    }
+    .count-plan{
+        margin: 0 25px 0px 15px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #3D3D3D;
+        display: flex;
+        align-items: center;
+    }
+    .pei-chart-data {
+        padding-right: 0;
+    } 
+    .alert-wrapper {
+        margin-right: 25px !important;
+    }
+}
+
+.popperWidth{
+    min-width: 380px;
+    max-width: 380px;
+}   
+
+
